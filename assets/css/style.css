@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+}
+.container {
+    max-width: 1280px;
+}
+/* NAVBAR */
+:root {
+    --main-bg-color:#373A3C;
+  }
+
+.navbar {
+    background: var(--main-bg-color);
+  }
+  
+#fuente-L {
+    font-family: "Lobster", sans-serif;
+    font-size: 37px;
+    padding-left: 150px;
+}
+
+#color-nav-link a{
+    color: white;
+    font-size: 16px;
+}
+
+#color-nav-link {
+    padding-right: 150px;
+}
+
+/* NAVBAR */
+
+/* HEADER */
+
+header{
+    padding-top: 74px;
+}
+
+.size-img {
+  width: 98%; 
+}
+
+#contenido1 {
+    width: 90%;
+}
+
+.titulo {
+    color: #373A3C;
+    font-weight:700;
+    font-size: 40px ;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.sub-titulo {
+    color: #373A3C;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.ocultar {
+    display: none;
+}
+
+/* CONTENIDO COUROUSEL */
+
+#slide-contenido1 {
+    display: inline;
+    height: 180px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #2e2a2a;
+}
+
+.carousel-indicators {
+    bottom: -60px;
+}
+
+/*FIN CONTENIDO COUROUSEL */
+
+/*FIN HEADER */
+
+/* MAIN */
+.text1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #373A3C;
+}
+
+.linea-section {
+    display: inline-block;
+    color: #373A3C;
+    font-weight: 700;
+}
+
+.subtit {
+    font-size:23px;
+    font-weight: 700;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #DC3545;
+    color: #ffffff;
+}
+
+footer h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer h6 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.lobster {
+    font-family: "Lobster", sans-serif;
+}
+
+#footer-black{
+    background-color: #373A3C;
+    font-family: "Lobster", sans-serif;
+    font-size: 40px;
+}
+@media (max-width: 768px) {
+    #fuente-L {
+        padding-left: 10px;
+    }
+
+     .size-img {
+        width: 100%;
+        padding-left: 4px;
+        margin-top: 10px;
+    }  
+    
+    .titulo {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 15px;  
+    }
+
+    .sub-titulo {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400px;
+    }
+
+    .ocultar {
+        display: inline;  
+    }
+
+    #slide-contenido1 {
+        display: none;
+    }
+
+    .linea-section {
+        display: none;
+    }
+
+    footer h3 {
+        font-size: 40px;
+        margin-top: 90px;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        margin-top: 22px;
+      }
+
+   }
